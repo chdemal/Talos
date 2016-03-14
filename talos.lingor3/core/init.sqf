@@ -145,7 +145,7 @@ if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),0)) then {player enableFatigu
 if(EQUAL(LIFE_SETTINGS(getNumber,"Pump_service"),1)) then{
 	[] execVM "core\fn_setupStationService.sqf";
 };
-
+[] execVM "core\taskforcewelcome.sqf";
 if(life_HC_isActive) then {
 	[getPlayerUID player,player getVariable["realname",name player]] remoteExec ["HC_fnc_wantedProfUpdate",HC_Life];
 } else {

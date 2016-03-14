@@ -23,6 +23,7 @@ _action = [
 if(_action) then {
 	life_cash = life_cash + _value;
 	hint format [localize "STR_ANOTF_Success",[_value] call life_fnc_numberText];
+	[0,format["Administrateur %1 c'est donné (%2$).",profileName,[_value] call life_fnc_numberText]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 	closeDialog 0;
 } else {
 	hint localize "STR_NOTF_ActionCancel";

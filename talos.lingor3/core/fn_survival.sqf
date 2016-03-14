@@ -104,6 +104,12 @@ while {true} do {
 		_lastPos = visiblePosition player;
 		_lastPos = (SEL(_lastPos,0)) + (SEL(_lastPos,1));
 	};
+	
+	if(ITEM_VALUE("cartedacces") > 0) then {
+	player setVariable ['copLevel',1];
+	} else {
+	player setVariable ['copLevel',0];
+	};
 	uiSleep 1;
 };
 	

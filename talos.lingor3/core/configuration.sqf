@@ -50,6 +50,9 @@ life_pos_exist = false;
 life_pos_attach = [];
 life_civ_position = [];
 life_markersvaar = false;
+//
+life_calledTaxi = false;
+life_isOnDutyTaxi = false;
 
 //Settings
 life_settings_enableSidechannel = GVAR_PNAS["life_enableSidechannel",true];
