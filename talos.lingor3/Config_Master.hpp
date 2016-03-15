@@ -6,7 +6,7 @@
 */
 class Life_Settings {
     /* Persistent Player Settings */
-    save_civ_weapons = true; //Allow civilians to save weapons on them?
+    save_civ_weapons = false; //Allow civilians to save weapons on them?
     save_virtualItems = true; //Save Virtual items (all sides)?
     save_playerStats = true; //Save food, water and damage (all sides)?
     save_civ_position = true; //Save civilian location?
