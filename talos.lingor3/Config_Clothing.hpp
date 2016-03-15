@@ -56,7 +56,14 @@ class Clothing {
             { "H_BandMask_blk", "Hat & Bandanna", 300, { "", "", -1 } },
             { "H_Hat_blue", "", 310, { "", "", -1 } },
             { "H_Hat_checker", "", 340, { "", "", -1 } },
-            { "H_Booniehat_tan", "", 425, { "", "", -1 } }
+            { "H_Booniehat_tan", "", 425, { "", "", -1 } },
+			{ "ALE_H_NewEra_Redsox", "", 425, { "", "", -1 } },
+			{ "ALE_H_NewEra_Rouge", "", 425, { "", "", -1 } },
+			{ "ALE_H_NewEra_Lakers", "", 425, { "", "", -1 } },
+			{ "ALE_H_NewEra_Cyan", "", 425, { "", "", -1 } },
+			{ "ALE_H_NewEra_Black", "", 425, { "", "", -1 } },
+			{ "ALE_H_NewEra_Monster", "", 425, { "", "", -1 } },
+			{ "ALE_H_NewEra_Superman", "", 425, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
